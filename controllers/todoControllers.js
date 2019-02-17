@@ -12,11 +12,6 @@ var todoSchema = new mongoose.Schema({
 
 var Todo = mongoose.model('todo', todoSchema)
 
-// var data = [
-//   {item:'get milk'},
-//   {item:'get node'},
-//   {item:'get meat'}
-// ]
 
 module.exports = function(app) {
   
